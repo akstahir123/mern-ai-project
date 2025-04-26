@@ -14,5 +14,10 @@
         "dest": "/frontend/build/$1"
       }
     ]
+    {
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "framework": "create-react-app"
+}
   }
   
