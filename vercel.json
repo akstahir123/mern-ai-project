@@ -8,9 +8,11 @@
         }
       }
     ],
-    "routes":[
-        {"handle": "filesystem"},
-        {"src": "/*", "dest": "/index.html"}
+   "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/frontend/build/$1"
+      }
     ]
   }
   
