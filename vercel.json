@@ -8,10 +8,11 @@
         }
       }
     ],
-   {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
-}
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/frontend/build"
+      }
+    ]
   }
   
